@@ -1,0 +1,62 @@
+// ==========================================================================
+// Title Base
+// ==========================================================================
+@mixin title-base {
+  font-size: pxtoem(60);
+  // color: socialColor(facebook);
+  color: mainColors(success), 15%;
+  z-index: z-index(above);
+}
+// ==========================================================================
+// Button Base
+// ==========================================================================
+@mixin btn-base($bg: white, $color: white) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 127px;
+  min-height: 46px;
+  padding: pxtoem(12) pxtoem(40);
+  color: $color;
+  font-weight: 700;
+  border: none;
+  border-radius: pxtoem(5);
+  background: $bg;
+  box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
+  transition: all 0.2s linear;
+
+  &:hover {
+    cursor: pointer;
+    background: darken($bg, 5);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+// ==========================================================================
+// Button Rouded
+// ==========================================================================
+@mixin btn-rounded($bg: white, $color: white, $size: 50px) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $size;
+  height: $size;
+  color: $color;
+  border: none;
+  border-radius: 50%;
+  background: $bg;
+  box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
+  transition: all 0.2s linear;
+
+  &:hover {
+    cursor: pointer;
+    background: darken($bg, 5);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

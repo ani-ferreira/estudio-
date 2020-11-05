@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+// ==========================================================================
+// Abstract
+// ==========================================================================
+
+@import "abstract/functions";
+@import "abstract/variables";
+@import "abstract/mixins";
+
+// ==========================================================================
+// Vendor
+// ==========================================================================
+
+@import "vendor/normalize";
+
+// ==========================================================================
+// Base
+// ==========================================================================
+
+@import "base/fonts";
+@import "base/grid";
+
+// ==========================================================================
+// Pages
+// ==========================================================================
+
+// @import "pages/l-";
+
+// ==========================================================================
+// Component
+// ==========================================================================
+
+@import "component/header";
+// @import "component/carousel";
+// @import "component/carousel_fade_in";
+// @import "component/modal";
+// @import "component/toast";
+@import "component/tooltip";
+
+section#teste {
+  height: 100vh;
+  margin-top: 150px;
+  padding: 0px 30px;
+
+  div.teste1 {
+    display: flex;
+    flex-wrap: wrap;
+
+    .button1 {
+      @include btn-base(blue);
+    }
+    .button2 {
+      @include btn-base(darkred);
+    }
+    .button3 {
+      @include btn-base(yellow, black);
+    }
+    .button4 {
+      @include btn-base(purple);
+    }
+    .button5 {
+      margin-left: 20px;
+      @include btn-base(darkblue);
+    }
+    a {
+      margin-left: 20px;
+    }
+  }
+
+  div.teste2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    .button1 {
+      @include btn-rounded(blue);
+    }
+    .button2 {
+      @include btn-rounded(darkred);
+    }
+    .button3 {
+      @include btn-rounded(yellow, black);
+    }
+    .button4 {
+      @include btn-rounded(purple);
+    }
+
+    .button5 {
+      margin-left: 20px;
+      @include btn-rounded(darkblue);
+    }
+
+    a {
+      margin-left: 20px;
+    }
+
+    button {
+      margin-left: 20px;
+    }
+  }
+
+  div.teste3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+
+    button,
+    a {
+      margin-left: 20px;
+      @include btn-base(darkblue);
+    }
+  }
+
+  div.teste4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+
+    button {
+      margin-left: 20px;
+      @include btn-base(purple);
+    }
+  }
+}
