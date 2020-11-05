@@ -2,42 +2,75 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <title>Basic Boilerplate</title>
+    <title>EJF</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.2/css/solid.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="sass/style.scss">
+    <script src="https://kit.fontawesome.com/663de711ca.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
   </head>
   
   <body>
-    
+    <!--
    <!-- ==================================================================== -->
    <!-- component header -->
    <!-- ==================================================================== -->
-    <header>
-      <figure class="brand">
-        <h1>logomarca</h1>
-      </figure>
+ 
+  
+   <header >
 
-      <div class="header--toogle-btn">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+    <div id="div">
+        <a href="https://wa.link/emdn5r" style="font-family: Helvetica;text-decoration: none!important;"><strong>WhatsApp</strong></a>
+    </div>
+<nav id="navbar">
 
-      <nav class="overlay">
-        <!-- <nav class=""> -->
-        <div class="nav--container">
-          <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">projeto</a></li>
-            <li><a href="#">contato</a></li>
-          </ul>
-        </div>
-      </nav>
-      
-    </header>
+    <a href="#navbar">Inicio</a>
+    <a href="#im2">Servicios</a>
+    <a href="#contacto">Contacto</a>
+
+</nav>
+</header>
+    <h1 id="tit">FERREIRA & ASOCIADOS</h1><H2 id="subt">-ESTUDIO JURIDICO-</H2>
+    <img src="1.jpeg" id="im1">
+    <h2 id="frase"><i>“La creatividad, el conocimiento del derecho y la astucia, son las más poderosas armas al servicio 
+      de quien pelea en su búsqueda de justicia”</i></h2>
+<hr>
+    <div id="columnas" class="contenedor">
+      <p id="columna1" class="animado">Evaluamos todos los escenarios posibles para resolver estratégicamente ahorrando tiempo y dinero a través de la negociación y sobre todo, cuidando a nuestros representados.</p>
+      <p id="columna1" class="animado">Es nuestra premisa brindarle a cada cliente  la seguridad necesaria para que pueda desarrollar sus actividades habituales enfocado en sus proyectos y no en sus problemas. </p>
+  </div>
+
+  <!--imagen con cuadro y lineas-->
+<img src="2t.png" id="im2">
+
+<div id="columnas2">
+   <section id="tip"> <h3 id="tituloserv">CIVIL Y COMERCIAL</h3><p id="columna2">Daños y Perjuicios Accidentes - Redacción y ejecución de Contratos - Mediaciones - Acciones Indemnizatorias - Compra y venta - Locaciones.</p></section>
+   <section id="tip"> <h3 id="tituloserv">DERECHO SUCESORIO</h3><p id="columna2">Sucesiones Ab Intestato - Testamentos - Acciones Posesorias.</p></section>
+
+   <section id="tip"><h3 id="tituloserv">DERECHO DE FAMILIA </h3><p id="columna2">Alimentos - Divorcios contradictorios o de común acuerdo - Filiaciones - Régimen de Comunicacion - Cuidado personal.</p></section>
+</div>
+
+<container id="contacto" class="animado">
+  <section id="left">
+  
+      <p id="textocontacto">Contactate con nosotros por alguna de las siguientes vías para ponernos en contacto con vos. Si tu consulta es de carácter urgente podés llamarnos por teléfono o escribirnos por whastapp.<br> Seguinos en redes sociales para ver las últimas novedades jurídicas.</p>
+   <br> <br>   <br><div id="telefonos"> <br> <span id="lineaicono"> <i class="far fa-envelope"></i></i><p id="numtel">&emsp;estudioj.ferreira@gmail.com</p></span>
+     <br> <span id="lineaicono"> <i class="fab fa-whatsapp"></i><p id="numtel">&emsp;+54 11 3920-1314</p></span>
+     
+     <br> <span id="lineaicono"> <i class="fab fa-instagram"></i><p id="numtel">&emsp;/estjferr</p></span>
+  
+  
+  
+  </div>
+</section>
+<!--imagen con cuadro-->
+<img src="3TR.png" id="im3">
+</container>
+<a id="lin" href="#navbar" style="color: #4a767e; background-color: transparent; font-size: 1.5em; "> <i class="fas fa-chevron-circle-up" style="margin-bottom: 2em; margin-left: 50%;"></i> </a>
+
    <!-- ==================================================================== -->
    <!-- component header -->
    <!-- ==================================================================== -->
@@ -45,25 +78,7 @@
    <!-- ==================================================================== -->
    <!-- component carousel defaul -->
    <!-- ==================================================================== -->
-   <!-- <div class="carousel">
-
-      <div class="carousel--controler">
-        <div class="carousel--controler--next">
-          <i class="uis uis-angle-right"></i>
-        </div>
-        <div class="carousel--controler--prev">
-          <i class="uis uis-angle-left"></i>
-        </div>
-      </div>
-
-      <div class="carousel--indicator"></div>
-
-      <div class="carousel--container">
-        <div class="carousel--item"></div>
-        <div class="carousel--item"></div>
-        <div class="carousel--item"></div>
-      </div>
-    </div> -->
+  
    <!-- ==================================================================== -->
    <!-- component carousel defaul -->
    <!-- ==================================================================== -->
@@ -126,34 +141,8 @@
    <!-- Modal fadeIN -->
    <!-- ==================================================================== -->
 
-   <section id="teste">
-     <!-- buttons -->
-     <div class="teste1">
-      <a href="#" class="button1">Salvar</a>
-      <a href="#" class="button2">Enviar</a>
-      <a href="#" class="button3">Cancelar</a>
-      <a href="#" class="button4">Fechar</a>
-      <button class="button5">Salvar</button>
-     </div>
-
-     <div class="teste2">
-      <a href="#" class="button1" data-tooltip="right" data-tooltip-text="Sou um tooltip e vou colocar um texto bem grande">😃</a>
-      <a href="#" class="button2">😎</a>
-      <a href="#" class="button3" >🤣</a>
-      <a href="#" class="button4" >🤖</a>
-      <button class="button5">🤫</button>
-     </div>
-
-     <div class="teste3">
-      <a href="#" data-tooltip="up" data-tooltip-text="Sou um tooltip e vou colocar um texto bem grande">Tolltip</a>
-      
-      <a href="#" data-tooltip="right" data-tooltip-text="Sou um tooltip vamos fazer teste com um texto maior">Tolltip</a>
-    </div>
-
-     <!-- buttons -->
-   </section>
+   
 
     <script type="module" src="js/index.js"></script>
-   
   </body>
 </html>
