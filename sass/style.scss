@@ -46,29 +46,49 @@ body {
   width: 100%;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   body {
     background-color: #eeecec;
   }
+
   #im3 {
-    visibility: hidden;
+    display: none;
   }
   #im1 {
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 100%;
   }
   #navbar {
     visibility: hidden;
   }
+
+  #columna1 {
+    display: none;
+  }
+
   #columnas2 {
-    background-color: royalblue;
     display: flex;
     flex-direction: column;
   }
   #contacto {
     display: flex;
     flex-direction: column;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  #frase {
+    font-size: large;
+    width: 90%;
+  }
+  #contacto {
+    font-size: small;
+  }
+  #textocontacto {
+    font-size: medium;
+    text-align: center;
   }
 }
 
