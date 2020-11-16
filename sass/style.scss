@@ -46,7 +46,7 @@ body {
   width: 100%;
 }
 
-@media (max-width: 500px) {
+@media screen and(max-width: 600px) {
   body {
     background-color: #eeecec;
   }
@@ -54,9 +54,7 @@ body {
   #im3 {
     display: none;
   }
-  #im1 {
-    width: 100%;
-  }
+
   #navbar {
     visibility: hidden;
   }
@@ -79,10 +77,6 @@ body {
     overflow-x: hidden;
   }
 
-  #frase {
-    font-size: large;
-    width: 90%;
-  }
   #contacto {
     font-size: small;
   }
@@ -141,7 +135,7 @@ a:hover {
 hr {
   border-width: 1px 1px 0;
   border-style: solid;
-  border-color: #5e5e5e;
+  border-color: #c7c7c7;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -160,6 +154,11 @@ hr {
   text-align: center;
   font-family: "Raleway", sans-serif;
 }
+@media screen and(max-width: 600px) {
+  #subt {
+    font-size: 1.2rem;
+  }
+}
 
 #frase {
   color: #4a767e;
@@ -170,6 +169,15 @@ hr {
   font-family: "Times New Roman", Times, serif;
   margin-top: 1em;
   margin-bottom: 2em;
+}
+@media screen and(max-width: 600px) {
+  #frase {
+    width: 76%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 3rem;
+    font-size: 1.4rem;
+  }
 }
 
 #columna1 {
@@ -244,12 +252,26 @@ hr {
   margin-right: 13%;
   margin-top: 2em;
 }
-
+@media screen and(max-width: 600px) {
+  #im1 {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
 #im2 {
   width: 74%;
   margin-left: 13%;
   margin-right: 13%;
   margin-top: 2em;
+}
+
+@media screen and(max-width: 600px) {
+  #im2 {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
 }
 
 #im3 {
