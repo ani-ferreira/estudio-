@@ -13,4 +13,4 @@ tooltip();
 
 
 
-
+import{myFunction} from './modulo.js'

@@ -139,13 +139,14 @@ hr {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3em;
 }
 
 /*tipografia*/
 #tit {
   color: #4a767e;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 1.6em;
   font-family: "Prata", serif;
 }
 
@@ -359,4 +360,31 @@ hr {
   to {
     color: #a3a3a3;
   }
+}
+
+.test {
+  color: rgb(212, 211, 211);
+  transition: all 1s;
+  animation: opas 1s;
+  -webkit-animation: opas 1s;
+  animation-timing-function: linear;
+  @keyframes opas {
+    from {
+      opacity: 0;
+      transform: translateY(-40px);
+    }
+    to {
+      color: rgb(155, 154, 154);
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+h1::selection {
+  background-color: rgb(221, 223, 221);
+}
+
+h2::selection {
+  background-color: rgb(221, 223, 221);
 }
