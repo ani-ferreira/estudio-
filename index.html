@@ -58,8 +58,22 @@
   <section id="left">
   
       <p id="textocontacto">Dejanos tu mensaje y nos pondremos en contacto con vos a la brevedad. Si tu consulta es de carácter urgente podés llamarnos por teléfono o escribirnos por whastapp.<br> Seguinos en redes sociales para ver las últimas novedades jurídicas.</p>
-   
-		
+      <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label>Your Name: <input type="text" name="name" /></label>   
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
+		<!--
       <form name="contact" method="POST" id="form" data-netlify="true">
       
 		
@@ -69,7 +83,7 @@
        <button id="submit" type="submit" value="ENVIAR">ENVIAR</button>
     
       </form>
-      
+    -->
 </section>
    <!--
    <div id="telefonos"> <br> <span id="lineaicono"> <i class="far fa-envelope"></i></i><p id="numtel">&emsp;estudioj.ferreira@gmail.com</p></span>
