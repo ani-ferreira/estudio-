@@ -93,6 +93,7 @@ html {
 /*nav bar*/
 header {
   display: flex;
+  margin-top: 1em;
 }
 
 #div {
@@ -163,9 +164,9 @@ hr {
 
 #frase {
   color: #4a767e;
-  width: 56%;
-  margin-left: 22%;
-  margin-right: 22%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   margin-top: 1em;
@@ -251,7 +252,7 @@ hr {
   width: 74%;
   margin-left: 13%;
   margin-right: 13%;
-  margin-top: 2em;
+  margin-top: 2.7em;
 }
 @media screen and(max-width: 600px) {
   #im1 {
