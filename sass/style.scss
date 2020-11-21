@@ -488,10 +488,11 @@ body {
   color: #b3aca7;
 }
 
-#form {
+form {
   display: inline-block;
   width: 20em;
   margin: auto;
+  margin-top: 2em;
 }
 
 input {
@@ -546,7 +547,7 @@ textarea:hover {
   color: #e2dedb;
 }
 
-#submit {
+button {
   width: 20em;
 
   padding: 1em;
